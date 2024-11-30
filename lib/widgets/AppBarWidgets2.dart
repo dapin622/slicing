@@ -6,6 +6,8 @@ import 'package:food_shop/widgets/BarBawah.dart';
 class Appbarwidgets2 extends StatelessWidget{
   @override
   Widget build(BuildContext context){
+    final screenWidth = MediaQuery.of(context).size.width*0.05;
+    final screenHeight = MediaQuery.of(context).size.height*0.02;
     return Padding(padding: EdgeInsets.symmetric(
       vertical: 15, 
       horizontal: 15

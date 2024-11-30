@@ -7,6 +7,8 @@ import 'package:cupertino_icons/cupertino_icons.dart';
 class HomeAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width*0.05;
+    final screenHeight = MediaQuery.of(context).size.height*0.02;
     return Container(
       color: Colors.white,
       padding: EdgeInsets.all(25),
@@ -39,7 +41,7 @@ class HomeAppBar extends StatelessWidget {
             height: 50, // Tinggi dari lingkaran
             width: 50, // Lebar dari lingkaran (sama agar bulat)
             decoration: BoxDecoration(
-              color: Colors.white, // Warna background
+              color: Colors.white, // Warna background 
               shape: BoxShape.circle, // Bentuk bulat
                boxShadow: [
               BoxShadow(

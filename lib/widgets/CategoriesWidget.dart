@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class Categorieswidget extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width*0.05;
+    final screenHeight = MediaQuery.of(context).size.height*0.02;
     return SingleChildScrollView(
 scrollDirection: Axis.horizontal,
 
